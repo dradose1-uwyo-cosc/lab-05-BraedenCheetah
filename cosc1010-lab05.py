@@ -3,7 +3,7 @@
 # 10/10/2024
 # Lab 03 
 # Lab Section: 13
-# Sources, people worked with, help given to: Matthew Curl
+# Sources, people worked with, help given to: Matthew Curl, Isaiah Timbers
 
 
 max_temps = [
@@ -114,7 +114,7 @@ numbers = [-61, -76, 94, 21, 97, -4, 21, 56, -26, 9, 100, 56, -7, -32, 60, -68, 
 # Count how many positive numbers occur, how many negative numbers occur, and how many times 0 occurs
 # You should print the number and the result within an f-string 
 # Example output: 83 is positive
-
+#Setting the variables' values to zero
 pos_count = int(0)
 neg_count = int(0)
 zero_count = int(0)
@@ -135,7 +135,7 @@ print(f'There are {neg_count} negative numbers')
 print(f"Zero occurred {zero_count} time(s)")
 # Given the same numbers list, give the sum of all positive numbers, and the sum of all negative numbers
 # This should be done within a single loop
-
+#Setting the variables' values to zero
 pos_sum = int(0)
 neg_sum = int(0)
 
