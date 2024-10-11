@@ -3,7 +3,7 @@
 # 10/10/2024
 # Lab 03 
 # Lab Section: 13
-# Sources, people worked with, help given to: 
+# Sources, people worked with, help given to: Matthew Curl
 
 
 max_temps = [
@@ -136,8 +136,8 @@ print(f"Zero occurred {zero_count} time(s)")
 # Given the same numbers list, give the sum of all positive numbers, and the sum of all negative numbers
 # This should be done within a single loop
 
-pos_sum = 0
-neg_sum = 0
+pos_sum = int(0)
+neg_sum = int(0)
 
 for number in numbers:
     if number > 0:
